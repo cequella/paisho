@@ -1,3 +1,4 @@
+
 function ImageLoader(context, path) {
     this.m_context = context;
     this.m_x       = 0.0;

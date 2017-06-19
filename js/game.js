@@ -1,4 +1,4 @@
-var canvas;
+/*var canvas;
 var context;
 
 var image;
@@ -27,4 +27,12 @@ function mainLoop() {
 function startGame() {
     preset();
     mainLoop();
+}*/
+
+function startGame() {
+    var canvas = document.getElementById("canvas");
+    var context = canvas.getContext("2d");
+
+    var ingame = new InGame(context);
+    ingame.start();
 }
